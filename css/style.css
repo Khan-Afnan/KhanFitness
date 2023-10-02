@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+#first
+{
+    min-width: 100vw;
+    min-height: 100vh;
+    background: url('../images/im12.jpg') center no-repeat ;
+    background-size: cover;
+}
+#header{
+    min-width: 100vw;
+    min-height: 15vh;
+    /* background: blueviolet; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5.7rem;
+}
+.left span{
+    margin: 0 0.6rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    font-style: italic;
+}
+.menu{
+    display: none;
+}
+
+.right{
+    display: flex;
+}
+.right ul{
+    display: flex;
+
+}
+.right ul li{
+    list-style:none ;
+  
+}
+.right ul li a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 1.4rem;
+    padding: 0.4rem;
+    margin: 0.4rem 2rem;  
+    transition: 0.5; 
+}
+.right ul li a:hover{
+    /* background-color: black; */
+    border-radius: 10px;
+    color: #fff;
+    background: linear-gradient(to right, #eb3c5a, #f67831);
+    
+}
+/* BMI Calculator */
+#bmi{
+    width: 35vw;
+    height: 20vw;
+    /* background: orange; */
+    margin: 24vh 6vw;
+    /* color: #fff; */
+}
+.content h1{
+    font-size: 3.6rem;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    color: #fff;
+}
+.para p{
+    color: #fff;
+    font-weight: 500;
+    font-style: italic;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+}
+.hero-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 120px;
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid #FF5349;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    background: linear-gradient(to right, #eb3c5a, #f67831);
+    margin: 1.2rem 0;
+    transition: 0.5s ease;
+}
+.hero-btn:hover{
+    border: 2px solid #FF5349;
+    background: transparent;
+    color: #FF5349;
+    border-radius: 10px;
+}
+/* about page */
+#about{
+    min-width: 100vw;
+    min-height: 100vh;
+    background: #fff; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 12vw;
+   
+}
+.us{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.us img{
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.para1 p{
+    color: #1e1e1e;
+    font-weight: 600;
+    font-style: italic;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+}
+.para1{
+    margin: 0 7vw;
+    padding: 3rem;
+}
+.para1 h1{
+    font-size: 3.6rem;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    color: #1e1e1e;
+    margin-bottom: 2rem;
+}
+
+
+#services{
+    min-width: 100vw;
+    min-height: 100vh;
+    /* background: purple; */
+    display: flex;
+    align-items: center;
+}
+.l{
+    width: 50vw;
+    height: 70vh;
+}
+.l img{
+    width: 40vw;
+    height: 60vh;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+ 
+}
+.r{
+    width: 50vw;
+    height: 70vh;
+    /* background-color: rgb(110, 110, 235); */
+}
+.r h1{
+    font-size: 2.6rem;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    color: #1e1e1e;
+    margin-bottom: 0rem;
+    margin-left: 15rem;
+}
+.row{
+    display: flex;
+    /* background: #eb3c5a;  */
+}
+.col{
+    width: 25vw;
+    height: 35vh;
+    /* background-color:orange; */
+    padding: 2rem;
+}
+.col img{
+    width: 60px;
+    height: 50px;
+}
+.col div{
+    
+    margin-top: 2rem;
+    /* background: #FF5349; */
+}
+.col div h3{
+    margin-bottom: 0.4rem;
+}
+.col div p{
+    font-weight: 500;
+}
+#trainer{
+    min-width: 100vw;
+    min-height: 100vh;
+    background: url('../images/im18.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+.a{
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.a #bmi{
+    margin: 0rem;
+    padding: 4rem 2rem;
+}
+.a #bmi h1{
+    font-size: 2.7rem;
+    letter-spacing: 4px;
+}
+.a #bmi p{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+.b{
+    position: relative;
+}
+.b img{
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+}
+
+#contact{
+    margin-top: 3rem;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#contact h1{
+    position: relative;
+    text-align: center;
+    padding-top: 2rem;
+    color: #000;
+    font-size: 3rem;
+    z-index: 20;
+}
+.con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.x{
+    margin-right: 12rem;
+}
+.x div span i{
+    font-size: 1.8rem;
+    color: #FF5349;
+}
+.x div{
+    margin-bottom: 4rem ;
+}
+.x div span{
+    margin: 0 0.5rem;
+    font-size: 1.4rem;
+}
+.form-group{
+    margin: 1rem 0;
+}
+.form-group label{
+    margin: 0.8rem 0;
+    font-size: 1.4rem;
+    display: block;
+}
+.form-group input{
+    padding: 0.6rem ;
+    width: 400px;
+    border-radius: 10px;
+    border: transparent;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.form-group textarea{
+    width: 400px;
+    border-radius: 10px;
+    border: transparent;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+button{
+    cursor: pointer;
+}
+footer h1{
+    padding-top: 2rem;
+    color: #000;
+    font-size: 3rem;
+    text-align: center;
+}
+footer p{
+    font-size: 1rem;
+    text-align: center;
+    margin: 1.5rem 0;
+    letter-spacing: 2px;
+}
+footer div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer div span{
+    margin: 0 1rem;
+}
+footer div span i{
+    font-size: 1.8rem;
+    transition: 0.5s ease;
+}
+footer div span:hover i{
+    cursor: pointer;
+    color: #FF5349;
+}
+.fa-heart{
+    color: #FF5349;
+}
+
+.menu-container{
+    display: none;
+}
+
+
+

@@ -1,0 +1,41 @@
+/* Existing CSS... */
+
+/* Add media query for tablets */
+@media (min-width: 768px) and (max-width: 1124px) {
+    .container {
+        margin-left: 1rem;
+        transform: translateX(0px);
+    }
+
+    h1 {
+        font-size: 3.5rem; /* Adjusted font size for tablets */
+    }
+
+    h2 {
+        font-size: 2.8rem; /* Adjusted font size for tablets */
+    }
+
+    label, input {
+        font-size: 1.8rem; /* Adjusted font size for tablets */
+    }
+}
+
+/* Add media query for mobile phones */
+@media (max-width: 767px) {
+    .container {
+        margin-left: 1rem;
+        transform: translateX(0px);/* Adjusted max-width for mobile phones */
+    }
+
+    h1 {
+        font-size: 3rem; /* Adjusted font size for mobile phones */
+    }
+
+    h2 {
+        font-size: 2.5rem; /* Adjusted font size for mobile phones */
+    }
+
+    label, input {
+        font-size: 1.6rem; /* Adjusted font size for mobile phones */
+    }
+}

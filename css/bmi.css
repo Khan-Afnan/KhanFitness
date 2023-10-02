@@ -1,0 +1,76 @@
+/* bmi */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+#bmi {
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('../images/im10.webp') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    transform: translateX(-400px);
+}
+h1{
+    font-size: 4.4rem;
+    color: #fff;
+}
+h2{
+    font-size: 3.6rem;
+    color: #fff;
+    margin-top: 2rem;
+}
+label{
+    font-size: 1.8rem;
+    color: #fff;
+    font-weight: 600;
+}
+label,input{
+    margin: 1.5rem 0;
+}
+input{
+    padding: 0.4rem 1.2rem;
+    border-radius: 10px;
+    border: transparent;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-left: 2rem;
+}
+
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 120px;
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid #FF5349;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    background: linear-gradient(to right, #eb3c5a, #f67831);
+    margin: 0.5rem 0;
+    transition: 0.5s ease;
+}
+button:hover{
+    border: 2px solid #FF5349;
+    background: transparent;
+    color: #FF5349;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#result{
+    color: #fff;
+    font-size: 2.6rem;
+    font-weight: 500;
+}
